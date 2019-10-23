@@ -8,6 +8,7 @@ let RouteProvider = props => {
     <Switch>
       <Route exact path='/presenter' component={Presenter}/>
       <Route exact path='/viewer' component={Viewer}/>
+      <Route exact path='/*' component={Presenter}/>
     </Switch>
   );
 };
